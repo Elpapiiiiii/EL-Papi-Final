@@ -14,12 +14,13 @@ Bienvenido al sitio oficial de **El Papi**, un espacio de expresión personal y 
 
 ---
 
-## 🛠️ Tecnologías utilizadas
-
-- HTML5 semántico  
-- CSS3 + Sass (con variables y anidamiento)  
-- Bootstrap 5.3 (grillas, responsive, utilidades)  
-- Animaciones con `@keyframes` y clases personalizadas
+## 🚀 Tecnologías usadas
+- **HTML5** — estructura semántica
+- **CSS3** — estilos personalizados
+- **Bootstrap 5.3** — grid y utilidades responsive
+- **Sass** — variables, mixins, partials y nesting
+- **Animaciones CSS** — transiciones y efectos
+- **GitHub Pages** — hosting del sitio
 
 ---
 
