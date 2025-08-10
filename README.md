@@ -65,5 +65,5 @@ Bienvenido al sitio oficial de **El Papi**, un espacio de expresión personal y 
 ## 🗂️ Repositorio
 
 - Código fuente: [https://github.com/Elpapiiiiii/El-Papi-](https://github.com/Elpapiiiiii/El-Papi-)  
-- Página activa: [https://elpapiiiiii.github.io/El-Papi-/](https://elpapiiiiii.github.io/El-Papi-/)
+- Página activa: https://elpapiiiiii.github.io/EL-Papi-Final/
 
