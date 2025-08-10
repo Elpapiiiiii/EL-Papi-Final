@@ -1,0 +1,21 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.card { @include card; }
+
+.btn-primary {
+  --bs-btn-bg: #8a2be2;
+  --bs-btn-border-color: #8a2be2;
+  --bs-btn-hover-bg: #7a23cf;
+  --bs-btn-hover-border-color: #7a23cf;
+  border-radius: $radius;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-enter {
+  animation: fade-in .5s ease-out both;
+}

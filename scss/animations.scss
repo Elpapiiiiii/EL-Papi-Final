@@ -1,0 +1,13 @@
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes slide-left {
+  from { transform: translateX(10px); opacity: 0; }
+  to { transform: none; opacity: 1; }
+}
+
+.ani-fade { animation: fade-in .6s ease-out both; }
+.ani-slide { animation: slide-left .6s ease-out both; }
+.footer-animado { animation: fade-in .7s ease-out both; }

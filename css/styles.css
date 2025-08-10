@@ -1,0 +1,87 @@
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background: #0b0b0e;
+  color: #f3f4f6;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+header .nav-link.text-white {
+  opacity: 0.9;
+}
+header .nav-link.text-white:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+footer .social-icons img {
+  filter: brightness(1);
+  transition: transform 0.2s ease;
+}
+
+footer .social-icons a:hover img {
+  transform: translateY(-2px);
+}
+
+.card {
+  background: #11131a;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.btn-primary {
+  --bs-btn-bg: #8a2be2;
+  --bs-btn-border-color: #8a2be2;
+  --bs-btn-hover-bg: #7a23cf;
+  --bs-btn-hover-border-color: #7a23cf;
+  border-radius: 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-enter {
+  animation: fade-in 0.5s ease-out both;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes slide-left {
+  from {
+    transform: translateX(10px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+.ani-fade {
+  animation: fade-in 0.6s ease-out both;
+}
+
+.ani-slide {
+  animation: slide-left 0.6s ease-out both;
+}
+
+.footer-animado {
+  animation: fade-in 0.7s ease-out both;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,11 @@
+@use 'variables' as vars;
+
+@mixin fluid-type($min, $max) {
+  font-size: clamp($min, 1rem, $max);
+}
+
+@mixin card {
+  background: #11131a;
+  border-radius: vars.$radius;
+  box-shadow: vars.$shadow;
+}

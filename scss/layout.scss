@@ -1,0 +1,32 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+:root { color-scheme: dark; }
+
+body {
+  background: $bg;
+  color: $text;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Arial, sans-serif;
+}
+
+.container {
+  max-width: $container-max;
+}
+
+// Navbar
+header .nav-link.text-white {
+  opacity: .9;
+  &:hover {
+    opacity: 1;
+    text-decoration: underline;
+  }
+}
+
+// Footer
+footer .social-icons img {
+  filter: brightness(1);
+  transition: transform .2s ease;
+}
+footer .social-icons a:hover img {
+  transform: translateY(-2px);
+}
